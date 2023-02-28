@@ -1,4 +1,4 @@
-TEST_DB1 = 'engine_learn1'
+TEST_DB1 = 'engine_learn'
 TEST_DB2 = 'engine_learn2'
 TEST_DB3 = 'engine_learn3'
 
