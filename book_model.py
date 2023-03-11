@@ -51,7 +51,7 @@ class BookAllField(Document):
         "db_alias": TEST_DB1,
          "indexes": [  # 数据集合创建时，并没有添加索引；没有在模型中和数据库中手动添加。
             "bookid",  # 此处的索引添加后，运行查询不久,已生效在数据库中添加索引，即数据库本身并和此处保持一致。
-            #"name",  #从此处删除索引后，数据库中并没有删除对应的索引项目
+            #"name",  #数据库中已建立的索引；从此处删除索引后，数据库中并没有删除对应的索引项目
             "price",
             "book_type",
             "publishing_house",
